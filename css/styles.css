@@ -60,6 +60,9 @@ input {
 }
 
 /* !REUSABLE CLASSES */
+.d-grid {
+    display: grid;
+}
 
 /* !HEADER */
 #header {
@@ -219,7 +222,99 @@ input {
 }
 
 /* !HERO */
-
+.hero {
+    padding: 6rem 0 5rem;
+}
+.text-content-group{
+    text-align: center;
+}
+.tagline-wrapper {
+    background-color: #fdecec;
+    border-radius: 2.3rem;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 2rem ;
+    width: fit-content;
+    padding: 1.2rem 1.6rem;
+}
+.tagline{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: var(--accent-color);
+}
+.strawberry-image{
+    width: 2.6rem;
+    height: 2.4rem;
+    margin: 0 .8rem;
+}
+.title {
+    color: var(--dark-color);
+    font-weight: 700;
+}
+.main-title{
+    font-size: 3rem ;
+    line-height: 5.8rem;
+    letter-spacing: -.01em;
+}
+.accent-color{
+    color: var(--accent-color);
+    letter-spacing: -.05em;
+    font-weight: 500;
+}
+.text-content-paragraph {
+    line-height: 3rem;
+    letter-spacing: .005em;
+    margin-block: 2.2rem;
+}
+.button-group {
+    margin: 5rem 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2.4rem;
+}
+.button {
+    display: inline-block;
+    text-align: center;
+    background-color: var(--accent-color);
+    color: var(--light-color);
+    padding: 1.4rem;
+    border: 1px solid transparent;
+    border-radius: .8px;
+    transform: background-color .25s;
+}
+.hero .button{
+    font-size: 1.2rem;
+}
+.button:not(.button-transparent):hover,
+.button:not(.button-transparent):focus{
+    background-color: var(--light-color);
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+}   
+.button-transparent{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    color: var(--dark-color);
+}
+.hero .button-transparent{
+    padding: 0;
+}
+.play-icon-image {
+    width: 5rem;
+    border-radius: 50%;
+    margin-right: 1.2rem;
+    box-shadow: 0 .5rem 2rem rgba(0, 0, 0, .08);
+}
+.button-transparent img {
+    transition: transform .25s ease-in-out;
+}
+.button-transparent:hover,
+.button-transparent:focus {
+    transform: scale(1,1);
+}
 /* !WHAT WE SERVE */
 
 /* !WHY CHOOSE US */
