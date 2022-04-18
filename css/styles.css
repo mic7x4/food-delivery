@@ -385,7 +385,23 @@ section:not(.hero) .button{
     color: #f9ba45;
 }
 /* !DOWNLOAD OUR APP */
-
+.download-our-app {
+    padding: 5rem 0;
+    background-color: var(--section-background-color);
+}
+.download-our-app-container .image-content-group img{
+    margin: 0 auto;
+}
+.download-our-app .button-group {
+    margin: 0;
+}
+.download-our-app .button {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    padding-block: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
 /* !FOOTER */
 
 /* !MEDIA QUERIES */
