@@ -365,7 +365,18 @@ input {
     line-height: 2.5rem;
 }
 /* !WHY CHOOSE US */
-
+.why-choose-us {
+    padding: 5rem 0;
+}
+section:not(.hero) .text-content-group{
+    margin: 8rem 0 2rem;
+}
+.why-choose-us .section-tagline{
+    color: #03a66b;
+}
+section:not(.hero) .button{
+    margin-top: 5rem 0 2rem;
+}
 /* !HOME DELIVERY */
 
 /* !DOWNLOAD OUR APP */
