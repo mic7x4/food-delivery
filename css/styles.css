@@ -378,7 +378,12 @@ section:not(.hero) .button{
     margin-top: 5rem 0 2rem;
 }
 /* !HOME DELIVERY */
-
+.home-delivery {
+    padding: 0 0 10rem;
+}
+.home-delivery .section-tagline{
+    color: #f9ba45;
+}
 /* !DOWNLOAD OUR APP */
 
 /* !FOOTER */
